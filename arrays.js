@@ -12,3 +12,9 @@ function addElementToBeginningOfArray(array, item) {
 function destructivelyAddElementToBeginningOfArray(array, item) {
   return array = [item, ...array]
 }
+
+addElementToBeginningOfArray(chocolateBars, `yarrak`)
+console.log(chocolateBars)
+
+destructivelyAddElementToBeginningOfArray(chocolateBars, `emmeli`)
+console.log(chocolateBars)
