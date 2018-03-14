@@ -27,4 +27,4 @@ function accessElementInArray(array, index){
   return array[index]
 }
 
-
+console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, `yaraaam`))
